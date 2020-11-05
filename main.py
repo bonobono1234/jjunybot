@@ -51,5 +51,5 @@ async def on_message(message):
         await message.channel.send("도움이 되서 기쁘네용!")
 
 
-
-client.run("NzczNzE0ODI2NzY4ODA5OTg1.X6NQFQ.96U3KamYmQA0xWBGAHyxHhIMpfw")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
