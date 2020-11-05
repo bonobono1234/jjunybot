@@ -1,6 +1,4 @@
-import app as app
 import discord
-from discord.utils import get
 
 client = discord.Client()
 
